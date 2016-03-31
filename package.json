@@ -1,0 +1,35 @@
+{
+  "name": "react-starter",
+  "author": "Mike Mclaren <mike.mclaren@sq1.com>",
+  "license": "MIT",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "webpack --config ./webpack.config.js",
+    "dev": "webpack-dev-server --port 3000 --host 0.0.0.0 --devtool eval --progress --colors --hot --content-base ./build --config ./webpack.config.js",
+    "docker": "npm run dev"
+  },
+  "dependencies": {
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-router": "^2.0.1",
+    "rethinkdb": "^2.2.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.7.2",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "chai": "^3.4.1",
+    "eslint": "^1.10.3",
+    "istanbul": "^0.4.2",
+    "mocha": "^2.3.4",
+    "node-sass": "^3.4.2",
+    "react-hot-loader": "^1.3.0",
+    "sass-loader": "^3.2.0",
+    "shipit-cli": "^1.4.1",
+    "shipit-deploy": "^2.1.2",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
