@@ -1,5 +1,6 @@
 "use strict";
 const path = require("path");
+const webpack = require('webpack');
 
 module.exports = {
 	entry: [
@@ -32,7 +33,11 @@ module.exports = {
 			{
 				test: /\.scss$/,
 				exclude: /node_modules/,
-				loader: "style!css!sass"
+				loaders: [
+					"isomorphic-style-loader",
+					"css-loader?modules&localIdentName=[name]_[local]_[hash:base64:3]",
+					"postcss-loader"
+				]
 			},
 			{
 				test: /\.(png|jpg)$/,
@@ -40,5 +45,9 @@ module.exports = {
 				loader: "url?limit=25000"
 			}
 		]
-	}
+	},
+
+	plugins: [
+		new webpack.NoErrorsPlugin()
+	]
 };

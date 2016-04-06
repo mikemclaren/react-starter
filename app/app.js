@@ -1,6 +1,7 @@
 import React from 'react';
 import { render } from 'react-dom';
 import RootComponent from './components/RootComponent';
+import App from './components/App';
 
 const rootInstance = render(<RootComponent />, document.getElementById('react-wrapper'));
 
