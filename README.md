@@ -2,6 +2,8 @@
 A very basic React starter kit without too many bells and whistles. Allows for
 importing SASS, and supports hot-loading, and that's about it!
 
+I use it, so it's kind of built to my specs a bit.
+
 ## Using
 Clone it down, `npm install` and then `npm run dev`!
 Go to [http://127.0.0.1:3000](http://127.0.0.1:3000) and you're good to go!
