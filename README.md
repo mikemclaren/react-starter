@@ -4,7 +4,14 @@ importing SASS, and supports hot-loading, and that's about it!
 
 I use it, so it's kind of built to my specs a bit.
 
-## Using
+You can also utilize this using my [starter-kit](https://github.com/mikemclaren/starter-kit) utility!
+
+## Using with Starter-Kit utility
+```
+starter-kit use react-starter
+```
+
+## Using from Github
 Clone it down, `npm install` and then `npm run dev`!
 Go to [http://127.0.0.1:3000](http://127.0.0.1:3000) and you're good to go!
 
