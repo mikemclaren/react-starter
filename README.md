@@ -8,7 +8,7 @@ You can also utilize this using my [starter-kit](https://github.com/mikemclaren/
 
 ## Using with Starter-Kit utility
 ```
-starter-kit use react-starter
+starterkit use react-starter
 ```
 
 ## Using from Github
